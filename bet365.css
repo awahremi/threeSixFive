@@ -1,0 +1,249 @@
+body{
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Tahoma, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Open Sans, sans-serif;  background-color:#282828;
+  color: rgb(201, 197, 197);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #137a5a;
+
+}
+.nav img{
+  height: 32px;
+  padding: 0;
+  margin: 0;
+}
+.deposit{
+  color: white;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bets-menu, a{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  justify-content: flex-start;  
+  margin-bottom: 100px;
+min-width: 40px;
+    font-size: 13px;
+    color: var(--color-white80p);
+    line-height: 28px;
+    height: 29px;
+    padding: 0 10px;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+
+}
+.bets-menu{
+  position: fixed;
+  top: 110px;
+}
+.green-background{
+  background-color: #52eb9a;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+
+.ticket-container{
+  background:  linear-gradient(to bottom right,#303d39,#353535);
+  border-radius:7px 7px;
+  margin:0 12px;
+  margin-bottom: 400px;
+  
+
+}
+.ticket-head{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+  border-bottom: 1px solid #4e5554;
+}
+.head-left{
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+
+}
+.head-left p{
+  padding-right: 10px;
+  font-size: 15px;
+  color: #00FFB6;
+    display: inline-flex;
+    flex-shrink: 0;
+    padding-right: 8px;
+    font-weight: 700;
+    line-height: 23px;
+    position: relative;
+}
+.head-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 1px 12px;
+  font-size: 12px;
+  color: #18A17A;
+  border-radius: 5px; 
+  font-weight: 700;
+}
+.ticket-details{
+  padding: 0 14px;
+
+}
+.first-ticket, .second-ticket{
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0;
+  justify-content: space-between;
+  white-space: normal;
+}
+.circle-area{
+  padding: 1px 2.6px;
+  border-radius: 20px;
+  margin: 7px 5px 10px  0;
+border: 1px solid rgb(191, 188, 188);  
+
+    width: 2%;
+    height: 2.7px;
+    border-radius: 50%;
+}
+  
+.left-area, .left-area span{
+  display: flex;
+  width: 305px;
+  white-space: normal;
+   
+}
+.bet-details{
+  display: flex;
+  flex-direction: column;
+}
+.bet-details span{
+  padding-bottom: 3px;
+}
+.team-one-score, .team-two-score{
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 700;
+  text-transform: capitalize;
+
+}
+.event-one-date-time, .event-two-date-time{
+  white-space: pre;
+  color: var(--color-grey8);
+  line-height: 20px;
+}
+
+#live-now input{
+  height: 25px;
+  width: 170px;
+}
+
+.ticket-bottom span{
+  font-size: 12px;
+  font-weight: 400;
+}
+.ticket-bottom{
+  border-top: 1px solid #4e5554;
+  padding: 15px 14px;
+  display: flex; 
+}
+.ticket-bottom div{
+  width: 50%;
+}
+.cashout-area{
+  text-align: center;
+  margin: 4px;
+
+}
+.cashout-button{
+  width: 95%;
+  display: flex;
+  margin: -15px auto 45px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  background-color: #4f4f4f;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.cashout-button .amount{
+
+  padding-left: 5px;
+  color: #26ffbb;
+
+}
+pre::after{
+  content: attr(value) counter(digit, decimal) ". " counter(digit, decimal) ". " counter(digit, decimal) ", ";
+  counter-reset: digit decimal;
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+ background-color: #201f1f;
+
+
+}
+.menu{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 40px;
+ width: 20%;
+
+ 
+}
+.menu img{
+  padding-top: 2px;
+  height: 33px;
+}
+.menu p{
+margin-top: 1px;
+align-items: center;
+font-size: 11px;
+font-weight: 7 00;
+color: #aaa7a3e4;
+
+}
+.my-bets{
+  width: 80%;
+  height:60px ;
+}
+h3{
+  color: #ffff;
+  font-size: 17px;
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.stubborn-p{
+  font-weight: 700;
+}
+#footer-ballance{
+  font-weight: 700;
+  font-size: 12px;
+}

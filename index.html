@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Out</title>
+  <link rel="stylesheet" href="bet365.css">
+</head>
+<body>
+  <div class="nav-container" >
+    
+    <div class="nav" >
+      <img src="offers icon.jpg" alt="offers" style="height: 45px; margin: 0; padding: 0;">
+      <img src="bet logo 2.jpg" alt="logo" style="height: 40px; margin: 0; padding: 0;">
+      <div class="deposit" style="display: flex; flex-direction: column;
+      margin-right: 10px;">
+        <img src="user icon.jpg" alt="user">
+        <p style="margin-top: -2px; margin-bottom: 6px;" id="Account-balance">59.48</p>
+      </div>
+    </div>
+    <h1 style="margin-top: 60px; color: #fff; position: fixed; left: 10px;">My Bets</h1>
+    <div class="bets-menu"  >
+      
+      <a href="#Cash-Out"  class="active-bet cash-out" onclick="addBackgroundColor(cashOut)"  ><span onclick="setHomeBallance()">Cash Out</span></a>
+      <a href="#live-now"><span class="active-bet">Live Now</span></a>
+      <a href="#unsettled" class="active-bet unsettled" onclick="addBackgroundColor(unsettled)"><span onclick="setHomeBallance()">Unsettled</span></a>
+      <a href="#settled" class="active-bet settled" onclick="addBackgroundColor(settled)" ><span onclick="settledBallance()">Settled</span></a>
+      <a href="#"><span class="active-bet">All</span></a>
+    </div>
+  </div>
+  
+  <div id="Cash-Out">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+    <div class="ticket-container" >
+      
+      <section class="ticket" >
+
+        <div class="ticket-head">
+          <div class="head-left">
+            <p class="stake">$350.00</p>
+            <p>Double</p>
+          </div>
+          <span class="head-right" style="border: 0; font-weight: 500;">Edit Bet</span>
+          
+        </div>
+      
+        <div class="ticket-details">
+            <div class="first-ticket">
+              <div class="left-area">
+                <div class="circle-area"></div>
+                <div class="bet-details">
+                  <span class="team-one-score">Team1 and score</span>
+                  <span class="bet-type">Correct Score</span>
+                  <span class="event-one-date-time">Team1 v Team2 Day Date Month Time</span>
+                </div>
+              </div>
+              <span class="event-one-odd">Odd</span>
+            </div>
+            <div class="second-ticket">
+              <div class="left-area">
+                <div class="circle-area"></div>
+                <div class="bet-details">
+                  <span class="team-two-score">Team1 and score</span>
+                  <span class="bet-type">Correct Score</span>
+                  <span  class="event-two-date-time">Team1 v Team2 Day Date Month Time</span>
+                </div>
+              </div>
+              <span class="event-two-odd">Odd</span>
+            </div>
+    
+        </div>
+    
+        <div class="ticket-bottom">
+          <div class="stake-area">
+            <span>Stake</span>
+            <h3 class="stake">$350.00</h3>
+          </div>
+          <div class="return-area">
+            <span>To Return</span>
+            <h3 class="return-amount">$59,364.48</h3>
+          </div>
+          
+        </div>
+        <div class="cashout-area">   
+          <button class="cashout-button">
+            <p class="cashout" style="display: inline;">Cash Out</p>
+            <p class="stake amount" style="display: inline;">$350.00</p>
+          </button>
+          <br>
+        </div>
+    </div>
+    </section>
+  </div>
+  
+
+  <div id="unsettled">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+  <div class="ticket-container" >
+  
+    <section class="ticket" id="unsettled">
+      <div class="ticket-head">
+        <div class="head-left">
+          <p class="stake">$350.00</p>
+          <p>Double</p>
+        </div>
+        <span class="head-right" style="border: 0; font-weight: 500;">Edit Bet</span>
+        
+      </div>
+     
+      <div class="ticket-details">
+          <div class="first-ticket">
+            <div class="left-area">
+              <div class="circle-area">
+              </div>
+              <div class="bet-details">
+                <span class="team-one-score">Team1 and score</span>
+                <span class="bet-type">Correct Score</span>
+                <span class="event-one-date-time">Team1 v Team2 Day Date Month Time</span>
+              </div>
+            </div>
+            <span class="event-one-odd">Odd</span>
+          </div>
+          <div class="second-ticket">
+            <div class="left-area">
+              <div class="circle-area"></div>
+              <div class="bet-details">
+                <span class="team-two-score">Team1 and score</span>
+                <span class="bet-type">Correct Score</span>
+                <span class="event-two-date-time">Team1 v Team2 Day Date Month Time</span>
+              </div>
+            </div>
+            <span class="event-two-odd">Odd</span>
+          </div>
+  
+      </div>
+  
+      <div class="ticket-bottom">
+        <div class="stake-area">
+          <span>Stake</span>
+          <h3 class="stake">$350.00</h3>
+        </div>
+        <div class="return-area">
+          <span>To Return</span>
+          <h3 class="return-amount">$59,364.48</h3>
+        </div>
+        
+      </div>
+      <div class="cashout-area">   
+         <button class="cashout-button">
+          <p class="cashout" style="display: inline;">Cash Out</p>
+          <p class=" stake amount" style="display: inline;">$350.00</p>
+         </button>
+         <br>
+      </div>
+    </section>
+  
+  </div>
+  </div>
+  
+
+  <div id="settled">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="ticket-container" style="  margin-bottom: 0;">
+    <section class="ticket" id="settled" style="margin-bottom: 0;">
+      <div class="ticket-head">
+        <div class="head-left">
+          <p  class="stake"></span>$350.00 </p>
+          <p>Doubles</p>
+        </div>
+        <div class="head-right" style="color: #18A17A;">
+          <span class="return-amount " >$5936448</span>
+          <span class="return">Returned</span>
+        </div>
+         
+      </div>
+     
+      <div class="ticket-details">
+          <div class="first-ticket">
+            <div class="left-area">
+                <img src="best checkmark.jpg" class="circle-area" alt="check mark" style=" width: 15px; height: 15px; border-radius: 50px; border: 0; margin-top: 0; margin-right: 5px;">
+              <div class="bet-details">
+                <span class="team-one-score">Team1 and score</span>
+                <span class="bet-type">Correct Score</span>
+                <span class="event-one-date-time" id="settled1">Team1 v Team2</span>
+              </div>
+            </div>
+            <span class="event-one-odd">Odd</span>
+          </div>
+          <div class="second-ticket">
+            <div class="left-area">
+              <img src="best checkmark.jpg" class="circle-area" alt="check mark" style=" width: 15px; height: 15px; border-radius: 50px;border: 0; margin-top: 0;  margin-right: 5px;">
+              <div class="bet-details">
+                <span class="team-two-score">Team1 and score</span>
+                <span class="bet-type">Correct Score</span>
+                <span class="event-two-date-time " id="settled2">Team1 v Team2</span>
+              </div>
+            </div>
+            <span class="event-two-odd">Odd</span>
+          </div>
+  
+      </div>
+    
+      <div class="ticket-bottom">
+        <div class="stake-area">
+          <span>Stake</span>
+          <h3 class="stake">$350.00</h3>
+        </div>
+        <div class="return-area">
+          <span>Returned</span>
+          <h3 class="return-amount">$5936448</h3>
+        </div>
+        
+      </div>
+      <p  class="stubborn-p" style="font-size: 12px; padding: 0 12px 15px; margin-top:-20px ;"> View history</p>
+    </section> 
+  
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  
+  <p class="older-bets" style="text-align: center; color: rgb(180, 178, 178); font-weight: 700; margin-bottom: 500px;">View older settled bets in your Account History</p>
+
+
+
+  <form action="" id="live-now">
+    <div class="first-event" style="display: flex; width: 60%; justify-content: space-between; margin: 10px; border-bottom: 1px solid gray; padding: 15px;">
+      
+      <div class="left-area" style="display:flex; flex-direction: column">
+        <input type="text" id="event-one-name-gen" placeholder="team1 v team2" style="width: 125%;">
+        <input type="text" id="event-one-score-gen" placeholder="team1 and final score" style="width: 125%;">
+        <input type="text" id="event-one-date-time-gen" placeholder="event-one-date-time" style="width: 125%;">
+      </div>
+      
+      <input type="number" id="event-one-odd-gen" 
+       placeholder="odd 1" style="height:fit-content; width: 55px;">
+
+    </div>
+    <div class="second-event" style="display: flex; width: 60%; justify-content: space-between; margin: 10px; border-bottom: 1px solid gray; padding: 15px;">
+
+      <div class="left-area" style="display:flex; flex-direction: column">
+        <input type="text" id="event-two-name-gen" placeholder="team1 v team2" style="width: 125%;">
+        <input type="text" id="event-two-score-gen" placeholder="team1 and final score" style="width: 125%;">
+        <input type="text" id="event-two-date-time-gen" placeholder="date and time of the event" style="width: 125%;">
+      </div>
+      
+      <input type="number" id="event-two-odd-gen" placeholder="Odd-2 " 
+      style="height:fit-content; width: 55px;">
+
+    </div>
+    <input type="number" id="new-stake" placeholder="stake" style="width: 70%;">
+
+    <button class="generate-button" style="width: 50%; padding: 10px; margin: 10px 25px; color:#26ffbb; background-color: #484848; font-weight: bold; font-size: 17px; border-radius: 10px;;" onclick="threeFunctions();">Generate Tickets</button>
+    <button class="generate-button" style="width: 50%; padding: 10px; margin: 10px 25px; color:#26ffbb; background-color: #484848; font-weight: bold; font-size: 17px; border-radius: 10px;;" onclick="widthdrawHundredK();"> Withdraw 100k</button>
+    
+    
+  </form>
+  <div name="" id="whatsapp-text"  style="margin: 5px; height:auto; width: 90%; border: 5px double green; border-radius: 15px; color:black; font-size: 18px; background-color: rgb(227, 226, 226);padding: 10px; margin-bottom: 50px; white-space: pre-wrap;" placeholder="Whatsapp text will appear here after ticket is generated"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <div class="footer">
+    <div class="menu">
+      <img src="home icon green.jpg" alt="home">
+      <p class="amount" id="footer-ballance">$BALLANCE</p>
+    </div>
+
+   
+    
+    
+      <img src="my bets icon.jpg" alt="my bets" class="my-bets">
+      
+  
+    
+      
+  </div>
+  <script src="generator.js"></script>
+</body>
+</html>
