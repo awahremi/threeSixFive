@@ -200,6 +200,8 @@ function addBackgroundColor(variable){
     balance = parseFloat(balance.toFixed(2)).toLocaleString('en-US')
     let home = document.getElementById('Account-balance')
     home.innerHTML = ` $${balance}`
+    footerBallance.innerHTML = ` $${balance}`
+
    }
 
   

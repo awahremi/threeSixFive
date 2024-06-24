@@ -213,7 +213,8 @@ pre::after{
  font-size: 10px;
  flex-direction: column;
  align-items: center;
- padding: -15px;
+ margin-left: 5px;
+ margin-top: -10px;
  height: 40px;
  width: 20%;
 
