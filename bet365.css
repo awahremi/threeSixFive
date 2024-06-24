@@ -135,7 +135,8 @@ padding: 1px 2px;
 .team-one-score, .team-two-score{
   font-size: 16px;
   color: #ffff;
-  font-weight: 700;padding-bottom: 4px;
+  font-weight: 700;
+  padding-bottom: 7px;
   text-transform: capitalize;
 
 }
@@ -209,8 +210,10 @@ pre::after{
 }
 .menu{
  display: flex;
+ font-size: 10px;
  flex-direction: column;
  align-items: center;
+ padding: -15px;
  height: 40px;
  width: 20%;
 
