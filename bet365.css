@@ -133,7 +133,7 @@ padding: 1px 2px;
   flex-direction: column;
 }
 .team-one-score, .team-two-score{
-  font-size: 16px;
+  font-size: 14px;
   color: #ffff;
   font-weight: 700;
   padding-bottom: 7px;
@@ -144,6 +144,7 @@ padding: 1px 2px;
   color: #ffff;
   width: 100px;
   text-align: end;
+  margin-right: 12px;
 }
 .event-one-date-time, .event-two-date-time{
   white-space: pre;
