@@ -156,8 +156,11 @@ function GenerateWhatsappText(){
   event2 = newEventTwoName.value.split(" ")
   split2 = event2.map(word => word.charAt(0).toLocaleUpperCase() + word.slice(1))
   
-  whatsappText.innerHTML = 
-`Hello guys, our ticket for tomorow involves:
+
+  const regex = / v /gi
+
+  let text =
+  `Hello guys, our ticket for tomorow involves:
 
   ${split1.join(" ")} odds ${newEventOneOdd.value} 
   Time ${time1}.
@@ -172,6 +175,8 @@ function GenerateWhatsappText(){
   We are expecting a return of over $${Math.floor((newEventOneOdd.value * newEventTwoOdd.value * newStake.value ) / 1000)}k 
   on a maximum recomended stake of $${newStake.value}.`
   
+  whatsappText.innerHTML = text.replace(regex, ' - ')
+
 }
 
 
@@ -264,3 +269,5 @@ function addBackgroundColor(variable){
   settledEventName1.innerText = newNumber
   settledEventName2.innerText = newNumber2
    }
+   trackBalance()
+   setHomeBallance()
