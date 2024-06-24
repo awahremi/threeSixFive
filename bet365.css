@@ -131,7 +131,7 @@ padding: 1px 2px;
 }
 .bet-details{
   display: flex;
-  width: 280px;
+  width: auto;
   flex-direction: column;
 }
 .team-one-score, .team-two-score{
