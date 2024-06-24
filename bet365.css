@@ -118,8 +118,7 @@ min-width: 40px;
 border: 1px solid rgb(191, 188, 188); 
 padding: 1px 2px;
 
-    width: 2%;
-    height: 2.7px;
+    height: 2px;
     border-radius: 50%;
 }
   
@@ -130,6 +129,7 @@ padding: 1px 2px;
 }
 .bet-details{
   display: flex;
+  width: 280px;
   flex-direction: column;
 }
 .team-one-score, .team-two-score{
@@ -224,8 +224,8 @@ pre::after{
 }
 .menu img{
   padding-top: 2px;
-  height: 25px;
-  width: 30px;
+  height: 23px;
+  width: 28px;
 }
 .menu p{
 margin-top: 1px;
