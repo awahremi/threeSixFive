@@ -147,6 +147,9 @@ padding: 1px 2px;
   width: 100px;
   text-align: end;
 }
+.set{
+  text-align: start;
+}
 .event-one-date-time, .event-two-date-time{
   white-space: pre;
   color: var(--color-grey8);
