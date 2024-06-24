@@ -162,11 +162,11 @@ function GenerateWhatsappText(){
   let text =
   `Hello guys, our ticket for tomorow involves:
 
-  ${split1.join(" ")} odds ${newEventOneOdd.value} 
+  ${split1.join(" ")}, odds ${newEventOneOdd.value} 
   Time ${time1}.
   Final result ${result1},
 
-  ${split2.join(" ")} odds ${newEventTwoOdd.value} 
+  ${split2.join(" ")}, odds ${newEventTwoOdd.value} 
   Time ${time2}.
   Final result ${result2}.
 
