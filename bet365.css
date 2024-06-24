@@ -111,7 +111,6 @@ min-width: 40px;
   align-items: flex-start;
   margin: 15px 0;
   justify-content: space-between;
-  white-space: normal;
 }
 .circle-area{
   margin: 7px 5px 10px  0;
@@ -133,13 +132,10 @@ padding: 1px 2px;
   display: flex;
   flex-direction: column;
 }
-.bet-details span{
-  padding-bottom: 3px;
-}
 .team-one-score, .team-two-score{
   font-size: 16px;
   color: #ffff;
-  font-weight: 700;
+  font-weight: 700;padding-bottom: 4px;
   text-transform: capitalize;
 
 }
@@ -222,7 +218,8 @@ pre::after{
 }
 .menu img{
   padding-top: 2px;
-  height: 33px;
+  height: 25px;
+  width: 30px;
 }
 .menu p{
 margin-top: 1px;
@@ -234,7 +231,7 @@ color: #aaa7a3e4;
 }
 .my-bets{
   width: 80%;
-  height:60px ;
+  height:50px ;
 }
 h3{
   color: #ffff;
@@ -248,6 +245,6 @@ h3{
 }
 #footer-ballance{
   font-weight: 700;
-  font-size: 12px;
+  font-size: 11px;
 }
 
