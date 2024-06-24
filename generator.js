@@ -203,7 +203,7 @@ function addBackgroundColor(variable){
     footerBallance.innerHTML = ` $${balance}`
 
    }
-
+ 
   
    
 
@@ -264,3 +264,5 @@ function addBackgroundColor(variable){
   settledEventName1.innerText = newNumber
   settledEventName2.innerText = newNumber2
    }
+   trackBalance()
+   setHomeBallance()
