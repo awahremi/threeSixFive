@@ -226,9 +226,9 @@ pre::after{
 }
 .menu img{
   padding-top: 2px;
-  height: 23px;
-  width: 24px;
-  margin-bottom: 12px;
+  height: 25px;
+  width: 26px;
+  margin-bottom: -2px;
 }
 .menu p{
 margin-top: 1px;
