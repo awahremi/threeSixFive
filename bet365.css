@@ -227,7 +227,8 @@ pre::after{
 .menu img{
   padding-top: 2px;
   height: 23px;
-  width: 28px;
+  width: 24px;
+  margin-bottom: 12px;
 }
 .menu p{
 margin-top: 1px;
