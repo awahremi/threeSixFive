@@ -259,3 +259,12 @@ h3{
   margin-top: 5px;
 }
 
+#bg-video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
